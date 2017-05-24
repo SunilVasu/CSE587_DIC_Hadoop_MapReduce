@@ -1,0 +1,15 @@
+Note1: The README.txt are located inside each of the Respective folder.
+Note2: The Output/Input files are located inside each of the respective folder.
+Note3: The Jars for each of the activity are located inside the Jar folder.
+
+RESULT for Featured Activity 2: Word co-occurrence among multiple documents.
+part a:
+1) When the number of documents to be processed is increased the time for processing and the space could be seen as drastically increasing which at situations lead to memory issues with the personal laptop.
+2) There is a direct relation between the space complexity and time complexity when the documents to be processed are increased from 2 to n. The complexity is proportional.
+3)When a single file from the given Latin document is processed it produced ~.3 million records. When that single document was tested for 3 paragraphs we could see the records at ~.16million 
+
+
+part b:
+1) The program was modified to process the 2-gram(as pairs) and 3-gram(as triplet).
+2) From running on the given data - latin documents for a sample set we could see that there are 0.33million on records for 3-grams. For 2-gram an output of 0.16million was obtained.
+3) The processing of 3-gram requires more space and time. The program were not able to be run on the personal system and hence a toy sample of 3 paragrams where taken for testing from one of the latin document. 
